@@ -6,6 +6,17 @@ body{
     background-image: url("../images/fondo-contacto.png");
     background-size: cover;
 }
+/*aca tenemos sobre-mi*/
+#sobre-mi{
+    background-image: url("../images/");
+}
+.foto-perfil{
+    border-radius: 50%;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 /*aca arranca inicio*/
 #inicio{
     background-image: url("../images/fondo-contacto.png");
