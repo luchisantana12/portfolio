@@ -7,9 +7,8 @@ body{
     background-size: cover;
 }
 /*aca tenemos sobre-mi*/
-#sobre-mi{
-    background-image: url("../images/");
-}
+
+
 .foto-perfil{
     border-radius: 50%;
 }
@@ -17,11 +16,33 @@ body{
     max-width: 100%;
     height: auto;
 }
+#stack-t h2{
+     font-size: 24;
+     color: white;
+
+}
+#stack-t h3{
+    font-size: 14px;
+    font-weight: 300;
+    color: #282828;
+}
+#stack-t{
+    background: rgb(125, 7, 7) ;
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+    
+}
+#stack-t .tecnologias img{
+     height: 60px;
+}
+#stack-t .tecnologias{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
 /*aca arranca inicio*/
 #inicio{
     background-image: url("../images/fondo-contacto.png");
     background-size: cover;
-    
 }
 #inicio img{
     height: 400px;
@@ -48,9 +69,7 @@ body{
     color: white;
 }
 
-#sobre-mi{
-    background-image: url("../images/");
-}
+
 #proyectos{ /*proyetos arranca aca*/
     background-repeat: no-repeat;
     background-image: url(../images/fondo-proyectos.png);
