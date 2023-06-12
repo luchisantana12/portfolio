@@ -71,6 +71,26 @@ body{
     text-decoration: none;
     color: #e20000 !important;
 }
+#form-academica h2{
+    font-size: 24px ;
+    color: #370a6d;
+    font: 400;
+}
+#form-academica h3{
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+}
+#form-academica h4{
+     font-size: 15px;
+     color: #282828;
+
+}
+#form-academica h5{
+    font-size: 15px;
+    color: #282828;
+
+}
 /*aca arranca inicio*/
 #inicio{
     background-image: url("../images/fondo-contacto.png");
