@@ -39,6 +39,38 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+#experiencia h2{
+    font-size: 24px ;
+    color: #370a6d;
+    font: 400;
+
+}
+#experiencia h3{
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencia h4{
+     font-size: 15px;
+     color: #282828;
+
+}
+#sobre-mi footer a{
+    color: #e20000;
+    
+}
+#sobre-mi .fa-github{
+    color: #e20000;
+    font-size: 30px;
+}
+#sobre-mi .fa-linkedin{
+    color: #e20000;
+    font-size: 30px;
+}
+#sobre-mi .link-rojo{
+    text-decoration: none;
+    color: #e20000 !important;
+}
 /*aca arranca inicio*/
 #inicio{
     background-image: url("../images/fondo-contacto.png");
@@ -109,14 +141,20 @@ body{
 }
 #proyectos footer{ 
     bottom: 0%;
+    color: #e20000;
     
 }
 #proyectos footer a{
     color: #e20000;
 }
-#proyectos footer .fa-github{ 
-    color: #e20000;
+#proyectos .fa-github, .fa-linkedin{ 
+    color: #e20000 !important;
+    font-size: 30px;
 }
+#proyectos .btn-whatsapp{
+    color: white !important;
+}
+
 
 
 /*aca cierra proyectos*/
@@ -145,17 +183,17 @@ h1{
     color:white;
     
 }
-footer .fa-linkedin{
+#inicio footer .fa-linkedin{
     font-size: 30px;
     text-align: center;
     
 
 }
-footer .fa-github{
+#inicio footer .fa-github{
     font-size: 30px;
     color: white;
-    
 }
+
 footer .btn-whatsapp{ 
     position: fixed;
     right: 10px;
@@ -165,6 +203,7 @@ footer .btn-whatsapp{
     padding: 5px 12px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    color: white;
 }
 .active{
 border: #e20000 1px solid;
