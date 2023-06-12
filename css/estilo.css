@@ -121,7 +121,6 @@ body{
     color: white;
 }
 
-
 #proyectos{ /*proyetos arranca aca*/
     background-repeat: no-repeat;
     background-image: url(../images/fondo-proyectos.png);
@@ -167,9 +166,12 @@ body{
 #proyectos footer a{
     color: #e20000;
 }
-#proyectos .fa-github, .fa-linkedin{ 
+#proyectos .fa-github{ 
     color: #e20000 !important;
     font-size: 30px;
+}
+#proyectos .fa-linkedin{
+    color: #e20000 !important;
 }
 #proyectos .btn-whatsapp{
     color: white !important;
@@ -198,14 +200,17 @@ h1{
     color: white;
 
 }
-
-#contacto footer a, #inicio footer a{
-    color:white;
-    
+#contacto .fa-github, .fa-linkedin{
+    color:white !important;
+    font-size: 30px;
+}
+#contacto footer a{
+    color: white;
 }
 #inicio footer .fa-linkedin{
     font-size: 30px;
     text-align: center;
+    color: white !important;
     
 
 }
