@@ -1,3 +1,8 @@
+<?php
+    $pg = "proyectos"; 
+?>
+
+
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 <head>
@@ -14,36 +19,12 @@
 </head>
 <body id="proyectos" class="d-flex flex-column h-100">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a href="sobre-mi.html" class="nav-link">Sobre mi</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <li class="nav-item">
-                            <a href="proyectos.html" class="nav-link active px-3">proyectos</a>
-                        </li> 
-                        <li class="nav-item px-3">
-                            <a href="contacto.html" class="nav-link ">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    
-        </nav>
+    <?php include_once("menu.php");?>
     </header>
     <main class="container">
         <div class="row">
             <div class="col-12 pt-3 pb-5">
-                 <h1>Proyectos</h1>
+                <h1>Proyectos</h1>
             </div>
         </div>
         <div class="row">
@@ -104,7 +85,7 @@
                     </div>
                 </div>
             </div>
-       </div><!--aca cierra el div-->
+        </div><!--aca cierra el div-->
     </main>
         <footer class="container mt-auto">
             <div class="btn-whatsapp fixed">
@@ -122,6 +103,6 @@
                     <a href="mailito:luchisantana555@gmail.com">luchisantana555@gmail.com</a>
                 </div>
             </div>
-         </footer>
+        </footer>
 </body>
 </html>

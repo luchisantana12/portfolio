@@ -1,3 +1,7 @@
+<?php
+    $pg = "contacto"; 
+?>
+
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 <head>
@@ -14,30 +18,7 @@
 </head>
 <body id="contacto" class="container d-flex flex-column h-100">
 <header class="container">
-    <nav class="navbar navbar-expand-md mb-4">
-        <div class="container fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 barrainicio">
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a href="sobre-mi.html" class="nav-link">Sobre mi</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a href="proyectos.html" class="nav-link">proyectos</a>
-                    </li> 
-                    <li class="nav-item px-3">
-                        <a href="contacto.html" class="nav-link active px-3">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </nav>
+<?php include_once("menu.php");?>
 </header>
 <main class="container">
     <div class="row">
@@ -52,19 +33,19 @@
         <div class="col-12 col-sm-6">
             <form action="" method="POST">
                 <div class="pb-3">
-                 <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
+                <input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre" class="form-control shadow">
                 </div>    
                 <div class="pb-3">
-                 <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
+                <input type="email" name="txtCorreo" id="txtCorreo" placeholder="Correo" class="form-control shadow">
                 </div>
                 <div class="pb-3">
-                 <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="telefono/whatsapp"  class="form-control shadow">
+                <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="telefono/whatsapp"  class="form-control shadow">
                 </div>   
                 <div class="pb-3">
                 <textarea name="txtMensaje" id="txtMensaje"  class="form-control shadow" placeholder="escriba aqui su mensaje"></textarea>
                 </div>
                 <div class="pb-3">
-                 <button type="submit" name="btnEnviar" id="btnEnviar" class="btn">ENVIAR</button>
+                <button type="submit" name="btnEnviar" id="btnEnviar" class="btn">ENVIAR</button>
                 </div>
             </form>
             

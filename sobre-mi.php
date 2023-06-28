@@ -1,3 +1,7 @@
+<?php
+    $pg = "sobre-mi"; 
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,33 +18,10 @@
 </head>
 <body id="sobre-mi">
     <header class="container">
-        <nav class="navbar navbar-expand-md mb-4">
-            <div class="container fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a href="sobre-mi.html" class="nav-link active px-3">Sobre mi</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a href="proyectos.html" class="nav-link">proyectos</a>
-                        </li> 
-                        <li class="nav-item px-3">
-                            <a href="contacto.html" class="nav-link ">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-    
-        </nav>
+    <?php include_once("menu.php");?>
     </header>
     <main>
-     <section class="container" id="descripcion">
+    <section class="container" id="descripcion">
         <div class="row">
             <div class="col-12 pt-3 pb-5">
                 <h1>Sobre mi</h1>
@@ -49,7 +30,7 @@
         <div class="row">
             <div class="col-12 col-sm-9">
                 <p>apasionado por el trabajo, el desarrollo y la inovacion. Desarrolador full stack</p>
-                <a href="contacto.html" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
+                <a href="contacto.php" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
             </div>
             <div class="col-12 col-sm-3">
                 <img src="images/6016EE19-1339-4927-82EB-F3B5BAFCD25A_edited.jpg" alt="luciano santana" class="foto-perfil img-fluid d-none d-sm-block">
